@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime uploads (user content) — keep folder structure only
+uploads/*
+!uploads/.gitkeep
+!uploads/avatars/
+uploads/avatars/*
+!uploads/avatars/.gitkeep
+
+# Runtime data store — keep folder only
+data/*
+!data/.gitkeep
